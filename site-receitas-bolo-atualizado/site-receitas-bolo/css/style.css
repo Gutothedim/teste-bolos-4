@@ -1,0 +1,82 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+.dark-theme {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+header, footer {
+    padding: 1.5em;
+    text-align: center;
+    background-color: #f57c00;
+    color: white;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.recipe {
+    border-bottom: 1px solid #ccc;
+    padding: 1.5em;
+    max-width: 800px;
+    margin: auto;
+}
+.toggle-button {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    background-color: #f57c00;
+    color: white;
+    border: none;
+    padding: 0.6em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #f5f5f5;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.dark-theme form {
+    background: #1e1e1e;
+}
+label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button[type="submit"] {
+    margin-top: 1.5em;
+    background-color: #f57c00;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button[type="submit"]:hover {
+    background-color: #e65100;
+}

@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Fale Conosco</h1>
+        <button class="toggle-button" onclick="toggleTheme()">Alternar Tema</button>
+        <nav><a href="index.html">Início</a></nav>
+    </header>
+    <main>
+        <form action="mailto:ContaParaOSite023@gmail.com" method="post" enctype="text/plain">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Receitas de Bolo</p>
+    </footer>
+    <script src="js/theme.js"></script>
+</body>
+</html>
